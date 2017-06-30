@@ -7,8 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>
-      <li>{{ $task->body }}</li>
-    </ul>
+      <h1>{{ $task->body }}</h1>
+      <h4>Added: {{ $task->created_at }}</h4>
 </body>
 </html>
